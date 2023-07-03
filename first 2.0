@@ -1,0 +1,9 @@
+x = input('enter a number :')
+try :
+    u=int(x)
+except:
+    u = -1
+if u > 0 :
+    print('good job')
+else :
+    print('bruh')
