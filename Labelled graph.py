@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+
+plt.axis([8,17,36,40])
+plt.title('time vs distance',fontsize=20,fontname='Times New Roman')
+plt.xlabel('time',color='blue')
+plt.ylabel('distance',color='red')
+plt.text(9,35,'a')
+plt.text(10,36,'b')
+plt.text(11,39,'c,')
+plt.text(12,38,'d')
+plt.text(13,36.5,'e')
+plt.text(14,36.9,'f')
+plt.text(15,37,'g')
+plt.plot([9,10,11,12,13,14,15],[35,36,39,38,36.5,36.9,37],'y--')
+plt.show()
